@@ -16,7 +16,7 @@ git clone https://github.com/inacentrale/Bibliotheque_backend.git
 ```
 ### 2. Installer les dépendances du backend
 
-- cd backend
+- cd Bibliotheque_backend
 - npm install
 - npm install cloudinary
 - npm install multer
@@ -34,7 +34,10 @@ Cela va insérer un compte admin dans la base de données :
 
  Pour lancer le Backend : nodemon
 
-### Schéma simplifié de la base de données_
+### La base de données
+Le script de création de la base de données se trouve dans le fichier database.sql
+
+#### Schéma simplifié de la base de données
 User
 - id (PK)
 - name
