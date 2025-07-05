@@ -16,10 +16,10 @@ git clone https://github.com/inacentrale/Bibliotheque_backend.git
 ```
 ### 2. Installer les dépendances du backend
 
-cd backend
-npm install
-npm install cloudinary
-npm install multer
+- cd backend
+- npm install
+- npm install cloudinary
+- npm install multer
 
 -------
 
@@ -29,8 +29,8 @@ Exécutez le script suivant dans le dossier backend : node seedAdmin.js
 
 Cela va insérer un compte admin dans la base de données :
 
-Email : admin@biblio.com
-Mot de passe : admin123
+- Email : admin@biblio.com
+- Mot de passe : admin123
 
  Pour lancer le Backend : nodemon
 
